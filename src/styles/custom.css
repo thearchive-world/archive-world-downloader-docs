@@ -1,0 +1,18 @@
+/* Accent from BrandColors.AMBER (0xFFB84C). Dark theme keeps the bright
+   value; light theme darkens it so accent-colored text clears WCAG AA
+   (4.5:1) on white. */
+:root {
+  --sl-color-accent-low: #3b2a00;
+  --sl-color-accent: #ffb84c;
+  --sl-color-accent-high: #ffe0a8;
+  /* Link and accent text use the bright brand amber on the dark surface
+     (about 10.3:1); the light theme keeps the darkened amber that clears
+     WCAG AA on white. */
+  --sl-color-text-accent: #ffb84c;
+}
+:root[data-theme='light'] {
+  --sl-color-accent-low: #ffe7bd;
+  --sl-color-accent: #8a5a00;
+  --sl-color-accent-high: #4a3000;
+  --sl-color-text-accent: #8a5a00;
+}

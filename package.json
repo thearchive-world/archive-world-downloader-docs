@@ -1,0 +1,18 @@
+{
+  "name": "archive-world-downloader-docs",
+  "type": "module",
+  "version": "0.0.1",
+  "license": "LGPL-3.0-or-later",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.41.4",
+    "astro": "^7.1.3",
+    "sharp": "^0.35.3"
+  }
+}

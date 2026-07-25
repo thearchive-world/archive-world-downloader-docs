@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wdl.docs.thearchive.world/sitemap-index.xml
