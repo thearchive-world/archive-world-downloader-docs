@@ -41,6 +41,12 @@ export default defineConfig({
           { label: 'Install', slug: 'get-started/install' },
           { label: 'Your first download', slug: 'get-started/first-download' },
         ]},
+        { label: 'Guides', items: [
+          { label: 'Check what you actually saved', slug: 'guides/check-coverage' },
+          { label: 'Resume an interrupted download', slug: 'guides/resume-download' },
+          { label: 'Restore a download you opened in singleplayer', slug: 'guides/restore-download' },
+          { label: 'Download from a replay', slug: 'guides/replay-download' },
+        ]},
       ],
     }),
   ],
