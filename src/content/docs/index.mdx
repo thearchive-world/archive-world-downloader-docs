@@ -1,0 +1,58 @@
+---
+title: Archive World Downloader
+description: Keep the multiplayer worlds you visit as a singleplayer world you can open offline.
+template: splash
+head:
+  - tag: title
+    content: Archive World Downloader
+hero:
+  tagline: Keep the multiplayer worlds you visit. As you explore, the mod saves the terrain, mobs, and Maps around you into a singleplayer world you can open offline. Opening a container saves what is inside it.
+  image:
+    file: ../../assets/logo.svg
+    alt: ""
+  actions:
+    - text: Install with a launcher
+      link: /get-started/install-launcher/
+      icon: download
+      variant: primary
+    - text: Install
+      link: /get-started/install/
+      icon: right-arrow
+      variant: secondary
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## What it does
+
+- Save worlds as you explore. Play as you normally would and the download follows where you go.
+- Works on a multiplayer server, not in your own singleplayer or LAN world.
+- Open the containers you want to keep. One you walked past but never opened is saved empty.
+- Resume an interrupted download. Pick it up later and keep adding to the same world.
+- Choose what gets saved. Turn entities, containers, and player data on or off before you start.
+- Download from a ReplayMod or Flashback replay as well as from a live server.
+- Runs on Fabric, NeoForge, and Quilt.
+- Everything comes from your own client, so nothing runs on the server.
+- Save a shareable backup. Zip a finished download into one file you can send to a friend.
+
+## Get started
+
+Install the mod, then save your first world from a server.
+
+<CardGrid>
+  <LinkCard
+    title="Install with a launcher"
+    href="/get-started/install-launcher/"
+    description="Install from inside Prism Launcher, the Modrinth App, or the CurseForge App."
+  />
+  <LinkCard
+    title="Install"
+    href="/get-started/install/"
+    description="Add the mod to Fabric, NeoForge, or Quilt, and confirm it loaded."
+  />
+  <LinkCard
+    title="Your first download"
+    href="/get-started/first-download/"
+    description="Save a world from a server and open your copy in singleplayer. About five minutes."
+  />
+</CardGrid>

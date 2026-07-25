@@ -35,6 +35,13 @@ export default defineConfig({
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/thearchive-world/archive-world-downloader' },
       ],
+      sidebar: [
+        { label: 'Get started', items: [
+          { label: 'Install with a launcher', slug: 'get-started/install-launcher' },
+          { label: 'Install', slug: 'get-started/install' },
+          { label: 'Your first download', slug: 'get-started/first-download' },
+        ]},
+      ],
     }),
   ],
 });
