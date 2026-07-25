@@ -10,6 +10,22 @@ export default defineConfig({
       title: 'Archive World Downloader',
       editLink: { baseUrl: 'https://github.com/thearchive-world/archive-world-downloader-docs/edit/main/' },
       customCss: ['./src/styles/custom.css'],
+      // Match the mobile browser chrome to the page surface in each theme.
+      head: [
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#17181c', media: '(prefers-color-scheme: dark)' } },
+        { tag: 'meta', attrs: { name: 'theme-color', content: '#ffffff', media: '(prefers-color-scheme: light)' } },
+        // Social share card. Starlight emits og:title/description/url and
+        // twitter:card=summary_large_image by default, but no image; og:image
+        // must be an absolute URL for social scrapers.
+        { tag: 'meta', attrs: { property: 'og:image', content: 'https://wdl.docs.thearchive.world/og.png' } },
+        { tag: 'meta', attrs: { property: 'og:image:width', content: '1200' } },
+        { tag: 'meta', attrs: { property: 'og:image:height', content: '630' } },
+        { tag: 'meta', attrs: { property: 'og:image:alt', content: 'Archive World Downloader' } },
+        { tag: 'meta', attrs: { name: 'twitter:image', content: 'https://wdl.docs.thearchive.world/og.png' } },
+        // PNG icon fallbacks alongside the SVG favicon (iOS ignores SVG icons).
+        { tag: 'link', attrs: { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' } },
+        { tag: 'link', attrs: { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' } },
+      ],
       // English-only at launch; the root-locale form keeps English at the
       // site root so a later locale adds a /<lang>/ prefix without changing
       // any existing English URL.
