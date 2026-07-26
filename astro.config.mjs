@@ -53,6 +53,7 @@ export default defineConfig({
             { label: 'World settings', slug: 'reference/config/world' },
             { label: 'Download settings', slug: 'reference/config/download' },
           ]},
+          { label: 'The downloads screen', slug: 'reference/downloads-screen' },
           { label: 'Commands and keybinds', slug: 'reference/commands' },
         ]},
       ],
