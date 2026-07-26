@@ -47,6 +47,14 @@ export default defineConfig({
           { label: 'Restore a download you opened in singleplayer', slug: 'guides/restore-download' },
           { label: 'Download from a replay', slug: 'guides/replay-download' },
         ]},
+        { label: 'Settings, screens, and commands', items: [
+          { label: 'Configuration', items: [
+            { label: 'Interface settings', slug: 'reference/config/interface' },
+            { label: 'World settings', slug: 'reference/config/world' },
+            { label: 'Download settings', slug: 'reference/config/download' },
+          ]},
+          { label: 'Commands and keybinds', slug: 'reference/commands' },
+        ]},
       ],
     }),
   ],
