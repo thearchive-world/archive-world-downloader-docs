@@ -56,6 +56,7 @@ export default defineConfig({
           { label: 'The downloads screen', slug: 'reference/downloads-screen' },
           { label: 'The download HUD', slug: 'reference/hud' },
           { label: 'Commands and keybinds', slug: 'reference/commands' },
+          { label: 'The wdl/ folder', slug: 'reference/wdl-folder' },
         ]},
       ],
     }),
