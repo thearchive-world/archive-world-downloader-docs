@@ -58,6 +58,11 @@ export default defineConfig({
           { label: 'Commands and keybinds', slug: 'reference/commands' },
           { label: 'The wdl/ folder', slug: 'reference/wdl-folder' },
         ]},
+        { label: 'Concepts', items: [
+          { label: 'What gets downloaded', slug: 'concepts/what-gets-downloaded' },
+          { label: 'Why machines and redstone load stopped', slug: 'concepts/machines-load-stopped' },
+          { label: 'How coverage is measured', slug: 'concepts/coverage-measurement' },
+        ]},
       ],
     }),
   ],

@@ -33,7 +33,7 @@ import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 - Download from a ReplayMod or Flashback replay as well as from a live server.
 - Runs on Fabric, NeoForge, and Quilt.
 - Everything comes from your own client, so nothing runs on the server.
-- Save a shareable backup. Zip a finished download into one file you can send to a friend.
+- Save a shareable backup. Zip a finished download into one file you can send to a friend. That zip carries your username and your inventory, so read [what a shared download reveals](/concepts/what-gets-downloaded/) before you send one.
 
 ## Get started
 
@@ -123,5 +123,27 @@ What every setting, screen, command, and keybind does.
     title="The wdl/ folder"
     href="/reference/wdl-folder/"
     description="The five files the mod keeps inside a downloaded world, and what deleting them costs."
+  />
+</CardGrid>
+
+## Concepts
+
+Why a download contains what it does.
+
+<CardGrid>
+  <LinkCard
+    title="What gets downloaded"
+    href="/concepts/what-gets-downloaded/"
+    description="What a copy contains, why some things are missing, and what sharing one reveals about you."
+  />
+  <LinkCard
+    title="Why machines and redstone load stopped"
+    href="/concepts/machines-load-stopped/"
+    description="Why a clock loads stopped, and why one block update starts it again."
+  />
+  <LinkCard
+    title="How coverage is measured"
+    href="/concepts/coverage-measurement/"
+    description="How the map overlay decides a chunk's entities were saved, without the server telling it."
   />
 </CardGrid>
