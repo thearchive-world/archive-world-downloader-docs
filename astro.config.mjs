@@ -61,6 +61,7 @@ export default defineConfig({
         { label: 'Concepts', items: [
           { label: 'What gets downloaded', slug: 'concepts/what-gets-downloaded' },
           { label: 'When a download can hold the wrong thing', slug: 'concepts/wrong-contents' },
+          { label: 'Chests carried by Minecarts, Boats, and animals', slug: 'concepts/container-vehicles' },
           { label: 'Why machines and redstone load stopped', slug: 'concepts/machines-load-stopped' },
           { label: 'How coverage is measured', slug: 'concepts/coverage-measurement' },
         ]},
