@@ -65,6 +65,7 @@ export default defineConfig({
           { label: 'Why machines and redstone load stopped', slug: 'concepts/machines-load-stopped' },
           { label: 'How filled Maps are saved', slug: 'concepts/maps' },
           { label: 'How coverage is measured', slug: 'concepts/coverage-measurement' },
+          { label: 'How other mods affect a download', slug: 'concepts/other-mods' },
         ]},
       ],
     }),
