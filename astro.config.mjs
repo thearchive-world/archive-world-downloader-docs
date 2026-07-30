@@ -63,6 +63,7 @@ export default defineConfig({
           { label: 'When a download can hold the wrong thing', slug: 'concepts/wrong-contents' },
           { label: 'Chests carried by Minecarts, Boats, and animals', slug: 'concepts/container-vehicles' },
           { label: 'Why machines and redstone load stopped', slug: 'concepts/machines-load-stopped' },
+          { label: 'How filled Maps are saved', slug: 'concepts/maps' },
           { label: 'How coverage is measured', slug: 'concepts/coverage-measurement' },
         ]},
       ],
