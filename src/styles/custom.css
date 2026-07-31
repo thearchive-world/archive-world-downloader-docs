@@ -16,3 +16,21 @@
   --sl-color-accent-high: #4a3000;
   --sl-color-text-accent: #8a5a00;
 }
+
+/* Site notice appended after the default footer (the Mojang disclaimer and
+   the release note). Match the footer's own muted, centered treatment so it
+   does not read as left-aligned body text. */
+.wdl-site-notice {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--sl-color-hairline);
+  text-align: center;
+  font-size: var(--sl-text-xs);
+  color: var(--sl-color-gray-3);
+}
+.wdl-site-notice p {
+  margin: 0;
+}
+.wdl-site-notice p + p {
+  margin-top: 0.5rem;
+}
