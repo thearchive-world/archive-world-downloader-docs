@@ -72,6 +72,7 @@ export default defineConfig({
         ]},
         { label: 'Contributing', items: [
           { label: 'How to help', slug: 'contributing' },
+          { label: 'Translation style', slug: 'contributing/translation-style' },
         ]},
       ],
     }),
