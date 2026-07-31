@@ -46,6 +46,7 @@ export default defineConfig({
           { label: 'Resume an interrupted download', slug: 'guides/resume-download' },
           { label: 'When a download fails', slug: 'guides/download-failed' },
           { label: 'Restore a download you opened in singleplayer', slug: 'guides/restore-download' },
+          { label: 'Keep the wrong things out of a download', slug: 'guides/keep-wrong-things-out' },
           { label: 'Download from a replay', slug: 'guides/replay-download' },
         ]},
         { label: 'Settings, screens, and commands', items: [
