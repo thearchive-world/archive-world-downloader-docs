@@ -1,0 +1,20 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: ci
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: build
+    ignore:
+      # TypeScript 7's native compiler drops the programmatic API `astro check`
+      # runs on, so the check fails on any 7.x. @astrojs/check peers on
+      # ^5.0.0 || ^6.0.0; drop this rule when that range accepts 7.
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
