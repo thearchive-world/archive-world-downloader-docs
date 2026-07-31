@@ -70,6 +70,9 @@ export default defineConfig({
           { label: 'How coverage is measured', slug: 'concepts/coverage-measurement' },
           { label: 'How other mods affect a download', slug: 'concepts/other-mods' },
         ]},
+        { label: 'Contributing', items: [
+          { label: 'How to help', slug: 'contributing' },
+        ]},
       ],
     }),
   ],
