@@ -44,6 +44,7 @@ export default defineConfig({
         { label: 'Guides', items: [
           { label: 'Check what you actually saved', slug: 'guides/check-coverage' },
           { label: 'Resume an interrupted download', slug: 'guides/resume-download' },
+          { label: 'When a download fails', slug: 'guides/download-failed' },
           { label: 'Restore a download you opened in singleplayer', slug: 'guides/restore-download' },
           { label: 'Download from a replay', slug: 'guides/replay-download' },
         ]},
