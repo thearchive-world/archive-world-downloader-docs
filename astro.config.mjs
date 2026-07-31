@@ -42,6 +42,7 @@ export default defineConfig({
           { label: 'Your first download', slug: 'get-started/first-download' },
         ]},
         { label: 'Guides', items: [
+          { label: 'Something looks wrong', slug: 'guides/something-looks-wrong' },
           { label: 'Check what you actually saved', slug: 'guides/check-coverage' },
           { label: 'Resume an interrupted download', slug: 'guides/resume-download' },
           { label: 'When a download fails', slug: 'guides/download-failed' },
