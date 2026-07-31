@@ -8,6 +8,7 @@
     "start": "astro dev",
     "build": "astro build",
     "check": "astro check",
+    "gate": "npm run check && npm run build 2>&1 | grep -qF 'All internal links are valid.' && ! grep -rn '—' src/content/docs && ! grep -rniE '\\bcaptur(e|es|ed|ing)\\b' src/content/docs && test -z \"$(grep -rLE '^description: *\\S' src/content/docs)\" && ! grep -rn '^# ' src/content/docs && echo GATE_OK",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
+    "starlight-links-validator": "^0.25.2",
     "typescript": "^6.0.3"
   },
   "allowScripts": {

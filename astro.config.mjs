@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightLinksValidator from 'starlight-links-validator';
 
 export default defineConfig({
   site: 'https://wdl.docs.thearchive.world',
@@ -35,6 +36,7 @@ export default defineConfig({
       social: [
         { icon: 'github', label: 'GitHub', href: 'https://github.com/thearchive-world/archive-world-downloader' },
       ],
+      plugins: [starlightLinksValidator()],
       components: { Footer: './src/components/Footer.astro' },
       sidebar: [
         { label: 'Get started', items: [
