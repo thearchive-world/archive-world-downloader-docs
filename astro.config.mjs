@@ -40,7 +40,6 @@ export default defineConfig({
       components: { Footer: './src/components/Footer.astro' },
       sidebar: [
         { label: 'Get started', items: [
-          { label: 'Install with a launcher', slug: 'get-started/install-launcher' },
           { label: 'Install', slug: 'get-started/install' },
           { label: 'Your first download', slug: 'get-started/first-download' },
         ]},
