@@ -67,8 +67,12 @@ The last two rows are diagnostic; leave them off for normal play.
 | Dump Received Item Frames | `dumpReceivedFrames` | Toggle | false | Diagnostic. Write every received Item Frame's position to `wdl/received-item-frames.txt` for a download-loss audit. Leave off for normal use. |
 | Log Outline Timing | `outlineDebugTiming` | Toggle | false | Diagnostic. Log the container outline's per-frame and per-tick cost, for tuning the outline render distance on a dense base. Leave off for normal use. |
 
+## When a change takes effect
+
+Settings that decide what gets saved are read once, when a download starts. Changing one while it runs has no effect until the next one. Settings that only change what you see apply as soon as you save them: the coverage overlay and its two colors, the outline's colors and render distance, and the HUD options.
+
 ## The config file
 
-Every setting on all three tabs also lives in the config file at `<config>/wdl.properties`. The settings screen is the normal way to edit them, and saving there rewrites the file. Editing the file by hand works too; changes apply on the next download, with no client restart.
+Every setting on all three tabs also lives in the config file at `<config>/wdl.properties`. The settings screen is the normal way to edit them, and saving there rewrites the file. Editing the file by hand works too, and neither route needs a client restart.
 
 The file also takes an override for any single game rule, including rules the settings screen does not list. See [World settings](/reference/config/world/).
