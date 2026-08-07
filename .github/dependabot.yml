@@ -6,12 +6,21 @@ updates:
       interval: weekly
     commit-message:
       prefix: ci
+    groups:
+      actions:
+        patterns: ["*"]
   - package-ecosystem: npm
     directory: "/"
     schedule:
       interval: weekly
     commit-message:
       prefix: build
+    groups:
+      # Majors are excluded from the group, not suppressed; they still arrive
+      # as individual pull requests.
+      npm:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
     ignore:
       # TypeScript 7's native compiler drops the programmatic API `astro check`
       # runs on, so the check fails on any 7.x. @astrojs/check peers on
