@@ -1,11 +1,11 @@
 ---
 title: When a download can hold the wrong thing
-description: "Four limits on how far a downloaded world can be trusted: on a server running inventory plugins a plugin's own screen can be saved as the contents of the block you clicked, downloading two server worlds of the same kind mixes them into one saved world, a mount you ride between dimensions is saved in both of them, and a Minecart with a Chest, or an animal carrying one, keeps the items you take out of it."
+description: "Five limits on how far a downloaded world can be trusted: on a server running inventory plugins a plugin's own screen can be saved as the contents of the block you clicked, downloading two server worlds of the same kind mixes them into one saved world, a mount you ride between dimensions is saved in both of them, and a Minecart with a Chest, or an animal carrying one, keeps the items you take out of it, and a mob you kill or bucket can stay in the copy after it is gone."
 ---
 
 A container in a download holds what your client was shown when you opened it. On most servers that is all there is to it. What you saw in the Chest is what the copy holds.
 
-Four things break that. None is a defect waiting on a fix. All four come out of what a client can see, and there is nothing to do about any of them except know about it.
+Five things break that. None is a defect waiting on a fix. All five come out of what a client can see, and there is nothing to do about any of them except know about it.
 
 One further case comes from your own side rather than the server's. A mod that lets you join a server running an older version of Minecraft translates the world before your client ever sees it, and a download saves that translation. See [joining a server older than your client](/concepts/other-mods/#joining-a-server-older-than-your-client).
 
@@ -54,3 +54,11 @@ The reason is the same reason the mod records containers at all. Your client is 
 Nothing warns you while it happens, and nothing in the download report marks it.
 
 The habit that avoids it is in [keep the wrong things out of a download](/guides/keep-wrong-things-out/).
+
+## A mob you kill or bucket can still appear
+
+A download keeps the mobs your client saw, and it keeps them even once they are gone. Kill a mob while a download is running, or scoop one into a bucket, and the copy can still hold it where you last saw it.
+
+Your client is told a mob is gone, but never why. It cannot tell one you killed from one that only wandered out of range. A download that dropped every mob it was told had left would lose the ones that had simply walked off, so it keeps what it saw. It is the same reason a mount ridden between dimensions is saved in both.
+
+Nothing is lost. The copy holds one mob that is no longer there.
