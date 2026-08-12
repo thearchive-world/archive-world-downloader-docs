@@ -48,7 +48,7 @@ A Jukebox or a Beehive that was already in the world when you arrived is the one
 
 An outline that stays after you did open the container is a different case, and one that clears on a second try. Close the container and look at it: if the outline is gone, the contents are in the download, and if it is still there, nothing was saved.
 
-Twenty seconds without right-clicking anything clears the stale click, and everything you open after that records normally. Give it half a minute to be safe. Opening a container during the wait starts it over, and so does right-clicking a mob, so leave both alone until the time is up. Then go back and open the containers that stayed outlined, and each outline clears as you do.
+Twenty seconds without right-clicking a container clears the stale click, and everything you open after that records normally. Give it half a minute to be safe. Opening a container during the wait starts it over, so leave the containers alone until the time is up. Then go back and open the containers that stayed outlined, and each outline clears as you do.
 
 One habit works against you. Clicking the Chest that refused you keeps that stale click fresh, and clicking it again is what most people do when a Chest will not open. Leave it alone, wait, and then carry on with the containers you can open.
 
