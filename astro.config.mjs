@@ -34,6 +34,7 @@ export default defineConfig({
         root: { label: 'English', lang: 'en' },
       },
       social: [
+        { icon: 'discord', label: 'Discord', href: 'https://discord.gg/eDUscXhtUa' },
         { icon: 'github', label: 'GitHub', href: 'https://github.com/thearchive-world/archive-world-downloader' },
       ],
       plugins: [starlightLinksValidator()],
