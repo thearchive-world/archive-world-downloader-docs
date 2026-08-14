@@ -3,14 +3,14 @@ title: Check what you actually saved
 description: "While an Archive World Downloader download runs, the in-world container outline and the map chunk overlay show what is already saved and what still has gaps, so you can fill them before you leave."
 ---
 
-While a download records, two in-game aids show what is already saved and what still has gaps, so you can fill them before you leave. Red outlines in the world mark containers you have not opened; amber chunks on your map mark terrain saved without its entities.
+While a download records, two in-game aids show what is already saved and what still has gaps, so you can fill them before you leave. Red outlines in the world mark containers and tradeable villagers you have not opened; amber chunks on your map mark terrain saved without its entities.
 
 ## Fill the gaps
 
 Do this while the download is still running, before you disconnect.
 
 1. Walk back into the amber area, close enough for the server to send its entities. Those chunks turn teal as the entities arrive.
-2. Open every outlined container you pass. Each outline clears as you open it.
+2. Open every outlined container and villager you pass. Each outline clears as you open it.
 3. Check the map again. Anything still amber has not been covered.
 
 The rest of this page explains what each outline and each tone means, and the few cases where an outline will not clear.
@@ -35,6 +35,12 @@ How you open each one is Minecraft's own business:
 One combination leaves an outline that never clears. With **Entities** on and **Containers** off, these are still outlined, and opening one saves nothing, because Containers off is what stops the mod recording any container you open. The outline goes on asking you to open something it cannot record. Turn Containers back on, or turn **"Outline by Download Status"** off in the [Interface reference](/reference/config/interface/).
 
 One of these you opened can still lose its contents: the items are written onto the entity when the chunk it stands in is saved, so a vehicle whose surroundings were never saved is reported as a partial download. The remedy while you are still there is to walk back to it. The chunk saves, the vehicle is written into it, and the contents you opened go with it.
+
+### Villagers with trades
+
+A villager with trades to offer is outlined the same way, and its outline clears when you open its trade screen. An adult villager with a profession and a Wandering Trader are outlined; a baby, an unemployed villager, or a nitwit has nothing to trade and never is. The box sits below the villager's head rather than around all of it, so a trading-hall roof or a trapdoor overhead cannot hide it.
+
+These outlines follow the **Entities** setting like the carried containers above, and saving the trades needs **Containers** on as well. With **Entities** on and **Containers** off a tradeable villager stays outlined while opening it saves nothing, the stuck outline those containers leave in that combination, cleared the same way. A villager whose chunk was never saved loses the trades you opened and is reported as a partial download, like a vehicle whose surroundings went unsaved; walk back to it while you are still there, and the chunk saves the villager with its trades.
 
 ### A red outline that will not clear
 

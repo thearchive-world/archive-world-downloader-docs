@@ -20,6 +20,10 @@ The same outline means two different things depending on what you did. One you n
 - You never opened it: [container outline](/guides/check-coverage/#container-outline).
 - You opened it and the outline stayed: [when a container you opened is not saved](/concepts/what-gets-downloaded/#when-a-container-you-opened-is-not-saved).
 
+## A villager still has an outline
+
+A villager with trades is outlined until you open them. One you never opened is still waiting; one that stayed outlined after you opened it was not saved. [Villagers with trades](/guides/check-coverage/#villagers-with-trades) covers both, including the settings that leave an outline no open can clear.
+
 ## Resuming is blocked, or a Map looks wrong
 
 A refused resume changes nothing, and a downloaded Map that looks odd is usually behaving as designed. Find the one you saw.

@@ -9,7 +9,7 @@ The world's terrain is always downloaded. The settings on this tab choose the ex
 
 | Setting | Config key | Type | Default | Effect |
 | --- | --- | --- | --- | --- |
-| Entities | `captureEntities` | Toggle | true | Save mobs, Item Frames, Paintings, and the Maps they carry. Disabling leaves them out, so the finished world is missing them. |
+| Entities | `captureEntities` | Toggle | true | Save mobs, Item Frames, Paintings, and the Maps they carry, and a villager's trades when you open them. Disabling leaves them out, so the finished world is missing them. |
 | Containers | `captureContainers` | Toggle | true | Save the contents of Chests, Barrels, and other containers you open. Disabling downloads those containers empty, and turns off the in-world outline on Chests, Barrels, and other block containers, along with the four kinds recorded from your own right-click, described below. An entity-carried container such as a Chest Boat or a chested Donkey, Mule, or Llama follows **Entities** instead; see [Chests carried by Minecarts, Boats, and animals](/concepts/container-vehicles/). |
 | Keep Chunks Current | `recaptureChunks` | Enum (OFF, NEARBY, EVERYWHERE) | EVERYWHERE | How up to date the download stays as you explore. OFF saves each area once and keeps it as you first saw it. NEARBY keeps the area around you current and leaves areas you have left as first saved. EVERYWHERE also refreshes areas you revisit, though a container keeps its old contents until you reopen it. |
 | Refresh Interval | `recaptureSeconds` | Slider (5 to 60 s) | 15 | How often the download refreshes the loaded chunks around you. A longer interval is cheaper but slower to catch a change further out. The 3×3 chunks around you refresh every second regardless. |
@@ -31,6 +31,10 @@ These need both **Entities** and **Containers** on, and the mod treats them all 
 - A Donkey, Mule, Llama, or Trader Llama wearing a Chest.
 
 Nothing else on rails or water carries a container. A Minecart with a Furnace, one with TNT, and a plain Minecart, Boat, or Raft are saved as ordinary entities with nothing inside them to save, and so is a mount with no Chest on it. Put a Chest on a Donkey while the download runs and it joins the list on the next tick, outline and all. How each one opens, and how the outline behaves on them, is in [check what you actually saved](/guides/check-coverage/#containers-that-something-carries).
+
+### Villager trades
+
+A villager's trades are saved when you open its trade screen, and this needs both **Entities** and **Containers** on, like the carried containers above. An adult villager with a profession and a Wandering Trader are outlined until their trades are saved; a baby, an unemployed villager, or a nitwit has nothing to trade and is never outlined. The outline follows **Entities**, so with **Entities** on and **Containers** off a tradeable villager stays outlined while opening it saves nothing. How the outline behaves is in [check what you actually saved](/guides/check-coverage/#villagers-with-trades).
 
 ## Player Data
 

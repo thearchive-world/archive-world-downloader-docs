@@ -27,7 +27,7 @@ A download grows as you explore, taking roughly the disk space of an ordinary si
 
 Now play. Walk through the areas you want to keep, so the mod loads and saves the terrain around you as you go.
 
-To save what is inside a container, open it. A Chest, Barrel, or other container has its contents saved the moment you open it, so open the ones whose contents you want in your copy.
+To save what is inside a container, open it. A Chest, Barrel, or other container has its contents saved the moment you open it, so open the ones whose contents you want in your copy. A villager is the same: open its trades to save them.
 
 A Lectern counts as a container too: open it to read, and its book is saved. A Chiseled Bookshelf works differently, because it opens no screen at all. [Check what you actually saved](/guides/check-coverage/) covers it, and shows how the mod outlines whatever is still missing.
 
