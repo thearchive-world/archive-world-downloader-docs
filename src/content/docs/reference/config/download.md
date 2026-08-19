@@ -44,7 +44,7 @@ A villager's trades are saved when you open its trade screen, and this needs bot
 | Ender Chest | `savePlayerEnderChest` | Toggle | true | Save your Ender Chest, but only while you have it open during the download. Open it once to save it. |
 | Item Location Data | `saveItemCoordinates` | Toggle | false | Keep the coordinates some items store, such as a Lodestone Compass target or the Bee positions in a silk-touched Beehive. Off by default for privacy, because those coordinates can point at a base the download otherwise hides. Turning it on keeps them pointing at their locations. |
 | Advancements | `captureAdvancements` | Toggle | true | Save your advancements. They are tied to your account, so opening on a different account does not inherit them. |
-| Statistics | `captureStatistics` | Toggle | true | Save your statistics. They are tied to your account, so opening on a different account does not inherit them. |
+| Statistics | `captureStatistics` | Toggle | true | Save your statistics. They are tied to your account, so opening on a different account does not inherit them. On older versions (seen on 1.16.5, not on 1.17.1 or newer), sending this request through a version-bridging proxy such as ViaBackwards can drop your connection; turn it off there. See [When a download fails](/guides/download-failed/#the-server-disconnects-you-when-a-download-starts). |
 
 Turning `savePlayerInventory` or `savePlayerEnderChest` off leaves those items out of the download, but not your location. The download still opens where you were when you downloaded it.
 

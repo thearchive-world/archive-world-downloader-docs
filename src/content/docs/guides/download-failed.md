@@ -58,6 +58,14 @@ A refusal is not a failure. The mod says no and changes nothing, which is the po
 
 A resume into a world you opened in singleplayer is refused for a different reason and has its own remedy. See [restore a download you opened in singleplayer](/guides/restore-download/).
 
+## The server disconnects you when a download starts
+
+Only when an old client reaches the server through a version-bridging proxy such as ViaBackwards: seen on 1.16.5, maybe 1.15 and earlier, not on 1.17.1 or newer. Starting a download can then drop your connection at once, saving little or nothing.
+
+The statistics request causes it. While a download runs, the mod periodically asks the server for your statistics, and on these versions the proxy drops the connection when it does.
+
+Turn off **"Statistics"** on the Download tab before you start. The request is never sent, the rest downloads normally, and you lose only your statistics, which are tied to your account anyway. See [Statistics](/reference/config/download/#player-data).
+
 ## What the log says
 
 `logs/latest.log` in your game directory holds every chat line the mod showed you, plus the detail none of them have room for. Two things are worth searching for.
