@@ -76,7 +76,7 @@ To change either color, see **"Missing Container Color"** and **"Recovered Conta
 
 ## Map chunk overlay
 
-With [XaeroPlus](https://modrinth.com/mod/xaeroplus) or [JourneyMap](https://modrinth.com/mod/journeymap) installed, the mod highlights every already-saved chunk on your minimap and world map, so you can watch your coverage grow and spot the gaps as you go. Either map mod enables it; without one, the overlay does nothing. XaeroPlus is supported from 1.19.4 up.
+With [XaeroPlus](https://modrinth.com/mod/xaeroplus) or [JourneyMap](https://modrinth.com/mod/journeymap) installed, the mod highlights every already-saved chunk on your minimap and world map, so you can watch your coverage grow and spot the gaps as you go. Either map mod enables it. XaeroPlus is supported from 1.19.4 up.
 
 A saved chunk shows in one of two tones. Teal, by default, means its entities were saved with it, so its Item Frames, Paintings, and Armor Stands are in the download. Amber means its blocks are saved but it was never close enough for the server to send its entities, so anything hung on its walls may be missing. Revisit an amber chunk up close and it turns teal.
 

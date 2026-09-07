@@ -19,7 +19,7 @@ The World tab holds three sections: Generation, Game Rules, and World Defaults. 
 | --- | --- | --- | --- | --- |
 | Override Game Rules | `overrideGamerules` | Toggle | true | Write a curated safe set of game rules into the download so it opens calm and safe. Disabling writes none, so the world's own defaults stand. |
 
-The screen lists the curated game rules below the master toggle. The exact set shown depends on your Minecraft version: the screen shows only the curated rules your version's game-rule registry defines, and skips any that version does not have, so treat the rules below as the current set rather than a fixed list. Each rule is a toggle. With **Override Game Rules** on, the safe set writes each rule's curated value; toggling a rule writes its own on or off value for the download instead. The curated values below turn everything off except Keep Inventory.
+The screen lists the curated game rules below the master toggle. The exact set shown depends on your Minecraft version: the screen shows only the curated rules your version's game-rule registry defines, so treat the rules below as the current set rather than a fixed list. Each rule is a toggle. With **Override Game Rules** on, the safe set writes each rule's curated value; toggling a rule writes its own on or off value for the download instead. The curated values below turn everything off except Keep Inventory.
 
 | Rule | Effect |
 | --- | --- |
