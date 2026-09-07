@@ -32,11 +32,11 @@ Pick the launcher you use. If you would rather install by hand, or you use a lau
 
 3. Choose Modrinth or CurseForge as the provider on the left, search for Archive World Downloader, and click **Select mod for download**.
 
-4. On Fabric, search for Fabric API in the same browser and select that too. Prism does not add a mod's dependencies for you, and its wiki tells you to check for Fabric API yourself. Quilt takes the same Fabric API, since it reads Fabric mods directly.
+4. On Fabric and Quilt, search for Fabric API in the same browser and select that too. Prism does not add a mod's dependencies for you, and its wiki tells you to check for Fabric API yourself.
 
 5. Click **OK**. Selecting a mod only queues it; OK is what downloads it.
 
-6. Back on the **Mods** tab, the mod is listed with its name and version, alongside Fabric API on Fabric or Quilt. That tab is the instance's `mods` folder, so what you see there is what the instance will load.
+6. Back on the **Mods** tab, the mod is listed, with Fabric API beside it on Fabric and Quilt. That tab is the instance's `mods` folder, so what you see there is what the instance will load.
 
 </Steps>
 
@@ -51,11 +51,11 @@ Prism's own guide is [Downloading mods](https://prismlauncher.org/wiki/getting-s
 
 2. Go to the **Browse** page and search for Archive World Downloader.
 
-3. Click **Add to instance** and choose the instance you just made. The mod is one project carrying its Fabric, Forge, and NeoForge builds together, and the app selects the file that matches your instance.
+3. Click **Add to instance** and choose the instance you just made. The mod is one project with a build per loader, and the app picks the file that matches your instance.
 
-4. On Fabric, Fabric API arrives with it, because the app installs the dependencies a mod requires. Forge and NeoForge need nothing extra.
+4. On Fabric, Fabric API arrives with it. Forge and NeoForge need nothing extra.
 
-5. Open the instance and look at its **Content** tab. What you installed is listed there, each entry with a switch to turn it off without deleting it.
+5. Open the instance and look at its **Content** tab. What you installed is listed there, each with a switch to turn it off without deleting it.
 
 </Steps>
 
@@ -93,7 +93,7 @@ If you installed with a launcher above, skip to [Java](#java). Without a launche
 
 ### Pick your build
 
-Get the mod from its [Modrinth](https://modrinth.com/mod/wdl) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/wdl) page, and choose the build that matches your Minecraft version and loader. Each build lists the exact dependency versions it needs, so take those versions straight from the page. [Supported versions](/reference/versions/) has the full list of what is built.
+Get the mod from its [Modrinth](https://modrinth.com/mod/wdl) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/wdl) page, and choose the build that matches your Minecraft version and loader. Each build lists the exact dependency versions it needs, so take those versions straight from the page. [Supported versions](/reference/versions/) lists every build.
 
 ### Install the loader and dependencies
 
@@ -121,7 +121,7 @@ Put the downloaded jars in the `mods` folder inside your Minecraft game director
 
 ## Java
 
-Each Minecraft version needs its own Java version, and the mod adds nothing beyond that: whatever Java runs your Minecraft runs the mod. Each of the three launchers can get it for you: the CurseForge App installs Java on its own, the Modrinth App has **Install recommended** next to "Java 21 location" in its Java installations settings, and Prism Launcher offers to autodetect and download Java when you first set it up. If you installed by hand, the official launcher installs the Java your version needs.
+Whatever Java runs your Minecraft runs the mod. Each of the three launchers can get it for you: the CurseForge App installs Java on its own, the Modrinth App has **Install recommended** next to "Java 21 location" in its Java installations settings, and Prism Launcher offers to autodetect and download Java when you first set it up. If you installed by hand, the official launcher installs the Java your version needs.
 
 ## Launch and confirm it loaded
 

@@ -42,9 +42,9 @@ The settings screen, titled "Archive World Downloader Settings", holds the mod's
 
 - **Pause-menu settings button.** In the pause menu on a server, a small "..." button sits beside the download button and opens the settings screen. It is not shown in your own local world.
 - **ModMenu on Fabric.** With ModMenu installed, its config button for Archive World Downloader opens the settings screen.
-- **Mods screen on Forge and NeoForge.** Both show a config button for the mod in their mods list, which opens the settings screen. On 1.13.2 that button is greyed out, because that version of Forge disables it for every mod.
+- **Mods screen on Forge and NeoForge.** Both show a config button for the mod in their mods list, which opens the settings screen. On 1.13.2 that button is grayed out, because that version of Forge disables it for every mod.
 
-On Fabric without ModMenu, and on 1.13.2, off a server there is no route to the settings screen: the pause-menu button appears only on a server, and there is no config-list button without ModMenu. Join a server to reach it.
+On Fabric without ModMenu there is no route off a server, because the pause-menu button appears only on a server. Join a server to reach it. On 1.13.2 the pause-menu button is the only route at all.
 
 `/wdl config` prints the config-file path and current values in chat, but does not open the settings screen.
 

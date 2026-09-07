@@ -3,7 +3,7 @@ title: Download settings
 description: Settings on the Download tab of the Archive World Downloader settings screen.
 ---
 
-Some rows do not appear on every Minecraft version; [Supported versions](/reference/versions/) lists which. The world's terrain is always downloaded. The settings on this tab choose the extra data to include with it and how the finished download is written to disk. The Download tab holds four sections: Contents, Player Data, Output, and Advanced. The Advanced section holds the debug and diagnostic toggles; there is no separate Debug tab. Each table lists the option's config-file key, its type, its default, and its effect. For the routes that open the settings screen, see [Opening the settings screen](/reference/commands/).
+The world's terrain is always downloaded. The settings on this tab choose the extra data to include with it and how the finished download is written to disk. The Download tab holds four sections: Contents, Player Data, Output, and Advanced. The Advanced section holds the debug and diagnostic toggles; there is no separate Debug tab. Each table lists the option's config-file key, its type, its default, and its effect. For the routes that open the settings screen, see [Opening the settings screen](/reference/commands/). Some rows do not appear on every Minecraft version; [Supported versions](/reference/versions/) lists them.
 
 ## Contents
 
@@ -42,7 +42,7 @@ A villager's trades are saved when you open its trade screen, and this needs bot
 | --- | --- | --- | --- | --- |
 | Your Inventory | `savePlayerInventory` | Toggle | true | Save your inventory so whoever opens the download inherits your items. Disabling leaves the inventory empty. |
 | Ender Chest | `savePlayerEnderChest` | Toggle | true | Save your Ender Chest, but only while you have it open during the download. Open it once to save it. |
-| Item Location Data | `saveItemCoordinates` | Toggle | false | Keep the coordinates some items store, such as a Lodestone Compass target or the Bee positions in a silk-touched Beehive. Off by default for privacy, because those coordinates can point at a base the download otherwise hides. Turning it on keeps them pointing at their locations. This row is not shown on 1.14.4 and older, where neither item exists. On 1.15.2 only the Beehive applies, since the Lodestone Compass arrives in 1.16. |
+| Item Location Data | `saveItemCoordinates` | Toggle | false | Keep the coordinates some items store, such as a Lodestone Compass target or the Bee positions in a silk-touched Beehive. Off by default for privacy, because those coordinates can point at a base the download otherwise hides. Turning it on keeps them pointing at their locations. This row is not shown on 1.14.4 and older, where neither item exists; on 1.15.2 only the Beehive does. |
 | Advancements | `captureAdvancements` | Toggle | true | Save your advancements. They are tied to your account, so opening on a different account does not inherit them. This row is not shown on 1.11.2 and older, which have no advancements. |
 | Statistics | `captureStatistics` | Toggle | true | Save your statistics. They are tied to your account, so opening on a different account does not inherit them. On older versions (seen on 1.16.5, not on 1.17.1 or newer), sending this request through a version-bridging proxy such as ViaBackwards can drop your connection; turn it off there. See [When a download fails](/guides/download-failed/#the-server-disconnects-you-when-a-download-starts). |
 

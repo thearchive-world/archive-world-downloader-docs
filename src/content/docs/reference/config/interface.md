@@ -3,7 +3,7 @@ title: Interface settings
 description: Settings on the Interface tab of the Archive World Downloader settings screen.
 ---
 
-The Interface tab holds four sections. Each table lists the option's config-file key, its type, its default, and its effect. For the routes that open the settings screen, see [Opening the settings screen](/reference/commands/). Some rows do not appear on every Minecraft version; [Supported versions](/reference/versions/) lists which.
+The Interface tab holds four sections. Each table lists the option's config-file key, its type, its default, and its effect. For the routes that open the settings screen, see [Opening the settings screen](/reference/commands/). Some rows do not appear on every Minecraft version; [Supported versions](/reference/versions/) lists them.
 
 ## HUD
 
@@ -41,7 +41,7 @@ See [Check what you actually saved](/guides/check-coverage/) for how the outline
 
 ## Chunk Overlay
 
-This whole section appears only when XaeroPlus or JourneyMap is installed. XaeroPlus is supported from 1.19.4 up, so on 1.18.2 and older only JourneyMap reveals it. The two color rows gray out when **Show Chunk Overlay** is off.
+This whole section appears only when XaeroPlus or JourneyMap is installed. XaeroPlus is supported from 1.19.4 up. The two color rows gray out when **Show Chunk Overlay** is off.
 
 | Setting | Config key | Type | Default | Effect |
 | --- | --- | --- | --- | --- |

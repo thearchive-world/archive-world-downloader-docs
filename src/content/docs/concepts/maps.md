@@ -19,7 +19,7 @@ Maps in Item Frames come in through the entity side of the download, so they nee
 
 A Map in Minecraft keeps redrawing itself. Hold one inside the area it covers and the game repaints it from the ground under you. That is fine on a server, where the ground is there. In a download it would cost you the picture, because everything outside the chunks you saved is empty air by default, so holding a Map over it repaints the Map to blank.
 
-So the mod locks every Map it saves, the same lock a Glass Pane gives one at a Cartography Table. The picture is frozen, and the item shows "Locked" in its tooltip. **"Lock Downloaded Maps"** is on by default. Minecraft has no Map lock before 1.14, so on 1.13.2 and older downloaded Maps stay ordinary live Maps and the setting is not shown.
+So the mod locks every Map it saves, the same lock a Glass Pane gives one at a Cartography Table. The picture is frozen, and the item shows "Locked" in its tooltip. **"Lock Downloaded Maps"** is on by default. Minecraft has no Map lock before 1.14, so on 1.13.2 and older the setting is not shown.
 
 Turn it off and downloaded Maps are ordinary live Maps: extendable at a Cartography Table, and blank the first time you hold one under the default world type.
 

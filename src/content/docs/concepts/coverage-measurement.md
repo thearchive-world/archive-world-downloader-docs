@@ -3,7 +3,7 @@ title: How coverage is measured
 description: "How Archive World Downloader's map overlay splits saved chunks into two tones by entity coverage, why entities lag terrain, and how the mod measures the server's entity send range live instead of assuming a fixed value."
 ---
 
-While a download records, the mod can highlight every already-saved chunk on your minimap and world map, so you can watch your coverage grow and spot the gaps. The highlight is drawn by XaeroPlus or JourneyMap, so without one of those installed there is nothing to see. XaeroPlus is supported from 1.19.4 up; JourneyMap works on every version. It comes in two tones, and where the line between them falls is what the mod has to work out as you play.
+While a download records, the mod can highlight every already-saved chunk on your minimap and world map, so you can watch your coverage grow and spot the gaps. The highlight is drawn by XaeroPlus or JourneyMap, so without one of those installed there is nothing to see. It comes in two tones, and where the line between them falls is what the mod has to work out as you play.
 
 ## The two tones
 
