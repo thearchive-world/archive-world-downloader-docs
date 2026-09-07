@@ -54,6 +54,7 @@ export default defineConfig({
           { label: 'Download from a replay', slug: 'guides/replay-download' },
         ]},
         { label: 'Settings, screens, and commands', items: [
+          { label: 'Supported versions', slug: 'reference/versions' },
           { label: 'Configuration', items: [
             { label: 'Interface settings', slug: 'reference/config/interface' },
             { label: 'World settings', slug: 'reference/config/world' },
