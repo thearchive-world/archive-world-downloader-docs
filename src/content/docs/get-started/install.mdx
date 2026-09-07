@@ -1,6 +1,6 @@
 ---
 title: Install
-description: Install Archive World Downloader from inside a launcher (Prism Launcher, the Modrinth App, or the CurseForge App), or by hand on Fabric, NeoForge, or Quilt, and confirm it loaded.
+description: Install Archive World Downloader from inside a launcher (Prism Launcher, the Modrinth App, or the CurseForge App), or by hand on Fabric, Forge, NeoForge, or Quilt, and confirm it loaded.
 ---
 
 import { Tabs, TabItem, Steps, Aside } from '@astrojs/starlight/components';
@@ -26,7 +26,7 @@ Pick the launcher you use. If you would rather install by hand, or you use a lau
 
 1. Click **Add Instance** on the top menu bar. On the **Custom** tab, choose your Minecraft version and your mod loader, give the instance a name, and create it.
 
-   Prism installs Fabric and NeoForge from here. It does not install Quilt itself, and its wiki sends you to [Quilt's own instructions](https://quiltmc.org/install/prismlauncher/) for that.
+   Prism installs Fabric, Forge, and NeoForge from here. It does not install Quilt itself, and its wiki sends you to [Quilt's own instructions](https://quiltmc.org/install/prismlauncher/) for that.
 
 2. Right-click the new instance and choose **Edit**. Open the **Mods** tab, then click **Download Mods** on the right.
 
@@ -51,7 +51,7 @@ Prism's own guide is [Downloading mods](https://prismlauncher.org/wiki/getting-s
 
 2. Go to the **Browse** page and search for Archive World Downloader.
 
-3. Click **Add to instance** and choose the instance you just made. The mod is one project carrying its Fabric, NeoForge, and Quilt builds together, and the app selects the file that matches your instance.
+3. Click **Add to instance** and choose the instance you just made. The mod is one project carrying its Fabric, Forge, and NeoForge builds together, and the app selects the file that matches your instance.
 
 4. Fabric API arrives with it. The app installs the dependencies a mod requires.
 
@@ -103,6 +103,10 @@ Install the loader and dependencies for the build you picked.
 
 Install Fabric Loader for your Minecraft version. The mod also needs Fabric API. Download the Fabric API version the Modrinth page lists for your build and keep it with the mod.
 
+#### Forge
+
+Install Forge for your Minecraft version. It needs no extra library.
+
 #### NeoForge
 
 Install NeoForge for your Minecraft version. It needs no extra library.
@@ -113,15 +117,15 @@ Quilt runs the Fabric build. On Quilt, install the Fabric jar of the mod togethe
 
 ### Add the jars to your mods folder
 
-Put the downloaded jars in the `mods` folder inside your Minecraft game directory. On Fabric and Quilt that is the mod jar and the Fabric API jar. On NeoForge it is the mod jar on its own. Create the `mods` folder if it is not there yet.
+Put the downloaded jars in the `mods` folder inside your Minecraft game directory. On Fabric and Quilt that is the mod jar and the Fabric API jar. On Forge and NeoForge it is the mod jar on its own. Create the `mods` folder if it is not there yet.
 
 ## Java
 
-Current Minecraft versions need Java 21, and the mod needs Java 21 or newer. Each of the three launchers can get it for you: the CurseForge App installs Java on its own, the Modrinth App has **Install recommended** next to "Java 21 location" in its Java installations settings, and Prism Launcher offers to autodetect and download Java when you first set it up. If you installed by hand, the official launcher installs Java 21 for you.
+Each Minecraft version needs its own Java version, and the mod adds nothing beyond that: whatever Java runs your Minecraft runs the mod. Each of the three launchers can get it for you: the CurseForge App installs Java on its own, the Modrinth App has **Install recommended** next to "Java 21 location" in its Java installations settings, and Prism Launcher offers to autodetect and download Java when you first set it up. If you installed by hand, the official launcher installs the Java your version needs.
 
 ## Launch and confirm it loaded
 
-A launcher's mod list, or a jar sitting in your `mods` folder, only tells you the file is in place. To confirm the game loaded it, start Minecraft from that instance or profile and look for Archive World Downloader by name in the in-game mod list: ModMenu on Fabric and Quilt, or the Mods screen on NeoForge. Seeing it there confirms it loaded.
+A launcher's mod list, or a jar sitting in your `mods` folder, only tells you the file is in place. To confirm the game loaded it, start Minecraft from that instance or profile and look for Archive World Downloader by name in the in-game mod list: ModMenu on Fabric and Quilt, or the Mods screen on Forge and NeoForge. Seeing it there confirms it loaded.
 
 ![The in-game mod list with Archive World Downloader present](../../../assets/install-mod-list.png)
 
