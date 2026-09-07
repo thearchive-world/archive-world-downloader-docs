@@ -13,7 +13,7 @@ The mod ships one build per Minecraft version and loader. These are the exact ve
 | 1.14.4, 1.15.2, 1.16.5, 1.17.1, 1.18.2, 1.19.4, 1.20.1, 1.20.2 | Fabric, Forge |
 | 1.20.4, 1.20.6, 1.21.1, 1.21.3, 1.21.4, 1.21.5, 1.21.8, 1.21.10, 1.21.11, 26.1.2, 26.2 | Fabric, NeoForge |
 
-Quilt runs the Fabric build on any version Quilt itself supports, so there is no separate Quilt build. The [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/wdl) lists what is published right now.
+There is no separate Quilt build. Quilt reads Fabric mods directly, so where Quilt supports the Minecraft version the Fabric build is the one to install. The [CurseForge page](https://www.curseforge.com/minecraft/mc-mods/wdl) lists what is published right now.
 
 ## Settings your version does not show
 
@@ -30,4 +30,4 @@ A setting Minecraft gives the mod no way to honor is left out of the settings sc
 
 The map chunk overlay works with JourneyMap on every version, and with XaeroPlus from 1.19.4 up. On 1.13.2 the mods-list config button is greyed out by that version of Forge, so the pause-menu button is the only route to the settings screen there.
 
-On 1.16.5 and older, reaching the server through a version-bridging proxy such as ViaBackwards can drop your connection when a download starts. [When a download fails](/guides/download-failed/#the-server-disconnects-you-when-a-download-starts) has the symptom and the fix.
+Reaching the server through a version-bridging proxy such as ViaBackwards can drop your connection when a download starts. Seen on 1.16.5, possibly 1.15 and earlier, and not on 1.17.1 or newer. [When a download fails](/guides/download-failed/#the-server-disconnects-you-when-a-download-starts) has the symptom and the fix.

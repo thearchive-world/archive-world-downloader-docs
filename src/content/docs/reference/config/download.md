@@ -3,7 +3,7 @@ title: Download settings
 description: Settings on the Download tab of the Archive World Downloader settings screen.
 ---
 
-The world's terrain is always downloaded. The settings on this tab choose the extra data to include with it and how the finished download is written to disk. The Download tab holds four sections: Contents, Player Data, Output, and Advanced. The Advanced section holds the debug and diagnostic toggles; there is no separate Debug tab. Each table lists the option's config-file key, its type, its default, and its effect. For the routes that open the settings screen, see [Opening the settings screen](/reference/commands/).
+Some rows do not appear on every Minecraft version; [Supported versions](/reference/versions/) lists which. The world's terrain is always downloaded. The settings on this tab choose the extra data to include with it and how the finished download is written to disk. The Download tab holds four sections: Contents, Player Data, Output, and Advanced. The Advanced section holds the debug and diagnostic toggles; there is no separate Debug tab. Each table lists the option's config-file key, its type, its default, and its effect. For the routes that open the settings screen, see [Opening the settings screen](/reference/commands/).
 
 ## Contents
 
