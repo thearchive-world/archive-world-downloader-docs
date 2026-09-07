@@ -28,4 +28,6 @@ A setting Minecraft gives the mod no way to honor is left out of the settings sc
 
 ## Other differences between versions
 
+The map chunk overlay works with JourneyMap on every version, and with XaeroPlus from 1.19.4 up. On 1.13.2 the mods-list config button is greyed out by that version of Forge, so the pause-menu button is the only route to the settings screen there.
+
 On 1.16.5 and older, reaching the server through a version-bridging proxy such as ViaBackwards can drop your connection when a download starts. [When a download fails](/guides/download-failed/#the-server-disconnects-you-when-a-download-starts) has the symptom and the fix.

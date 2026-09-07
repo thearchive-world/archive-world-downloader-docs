@@ -24,7 +24,7 @@ Everything else is a kind of data the mod records as it reaches your client whil
 - A villager's trades, saved when you open its trade screen. A villager or a Wandering Trader whose trades you open keeps its offers in the download, so it trades the way the one you met did. Opening is what saves them, the rule a Chest follows, and like a Chest an animal carries they need both the Entities and Containers settings on.
 - Your player data: your inventory, and your Ender Chest while you have it open.
 - Filled Maps you saw, so they show their picture in the copy rather than blank.
-- Your advancements and statistics.
+- Your advancements and statistics. Minecraft has no advancements before 1.12, so on 1.11.2 and older only your statistics are saved.
 
 Which of these extra kinds a download includes is governed by the Download tab of the settings screen. See the [Download reference](/reference/config/download/) for each toggle and its default.
 

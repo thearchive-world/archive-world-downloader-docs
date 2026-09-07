@@ -13,7 +13,7 @@ These four are the only mods the download does anything with, and it does it on 
 
 With either one installed, the mod highlights the chunks it has saved on your map, so you can watch your coverage grow and see the gaps while you still have time to fill them. [Check what you actually saved](/guides/check-coverage/) covers using it as you play, and [how coverage is measured](/concepts/coverage-measurement/) covers what its two tones mean.
 
-Each map mod draws the highlight its own way. XaeroPlus tints saved chunks one by one, and JourneyMap fills the saved area as a single shape. The colors mean the same on both. Install both and both draw, and there is no setting that picks one; the overlay's whole section of the settings screen appears only when one of the two is installed, as the [Interface settings](/reference/config/interface/) reference notes.
+XaeroPlus is supported from 1.19.4 up, so on 1.18.2 and older JourneyMap is the only one of the two that draws it. Each map mod draws the highlight its own way. XaeroPlus tints saved chunks one by one, and JourneyMap fills the saved area as a single shape. The colors mean the same on both. Install both and both draw, and there is no setting that picks one; the overlay's whole section of the settings screen appears only when one of the two is installed, as the [Interface settings](/reference/config/interface/) reference notes.
 
 In a replay, JourneyMap's own map can sit blank over ground the download has already saved. What the map has drawn and what the download holds are separate things: the saved-chunk highlight and the chunk count on the HUD are the ones to go by.
 

@@ -23,7 +23,7 @@ That is what the build checks. It cannot check whether the words read like Minec
 
 ## How the code is laid out
 
-The mod is [three Gradle subprojects](https://github.com/thearchive-world/archive-world-downloader/blob/dev/CONTRIBUTING.md#project-layout). `common` holds the shared, loader-independent code, which is most of the mod. `fabric` and `neoforge` are the thin per-loader entry points. Inside `common`, the `core` package is Minecraft-free and compiles on Java 8, and the build fails if a change breaks either rule. The [code repository](https://github.com/thearchive-world/archive-world-downloader) has the rest.
+The mod is [three Gradle subprojects](https://github.com/thearchive-world/archive-world-downloader/blob/dev/CONTRIBUTING.md#project-layout). `common` holds the shared, loader-independent code, which is most of the mod. `fabric` and `neoforge` are the thin per-loader entry points on the branches that ship them, and a branch that ships Forge keeps it in `forge/`, a separate Gradle build with its own wrapper. Inside `common`, the `core` package is Minecraft-free and compiles on Java 8, and the build fails if a change breaks either rule. The [code repository](https://github.com/thearchive-world/archive-world-downloader) has the rest.
 
 ## Improve these docs
 
