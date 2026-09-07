@@ -33,7 +33,7 @@ The rows below **Outline by Download Status** gray out when it is off.
 | Outline Render Distance | `outlineDistance` | Slider (1 to 256 blocks) | 96 | How far the container outline reaches from you, in blocks. |
 | Missing Container Color | `unscannedColor` | Color enum (RED, VIOLET, TEAL, AMBER, YELLOW, BLUE, REDDISH_PURPLE, WHITE) | RED | Outline color for a container still missing from the save. |
 | Recovered Container Color | `recoveredColor` | Color enum (same set) | VIOLET | Outline color for a container recovered from a prior download. |
-| Outline Thickness | `outlineLineWidthScale` | Slider (0.5 to 4.0) | 1.0 | Outline thickness, as a multiple of the game's default outline width. 1.0 matches the block-selection outline. |
+| Outline Thickness | `outlineLineWidthScale` | Slider (0.5 to 4.0) | 1.0 | Outline thickness, as a multiple of the game's default outline width. 1.0 matches the block-selection outline. This row is not shown on 1.15.2 through 1.21.10, where Minecraft draws every line at one fixed width. |
 
 The pair only works while the two values differ. Set **Missing Container Color** and **Recovered Container Color** to the same value and the outline stops telling the two states apart.
 
