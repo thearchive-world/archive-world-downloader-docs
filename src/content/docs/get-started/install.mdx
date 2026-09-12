@@ -3,11 +3,7 @@ title: Install
 description: Install Archive World Downloader from inside a launcher (Prism Launcher, the Modrinth App, or the CurseForge App), or by hand on Fabric, Forge, NeoForge, or Quilt, and confirm it loaded.
 ---
 
-import { Tabs, TabItem, Steps, Aside } from '@astrojs/starlight/components';
-
-<Aside type="caution" title="Not on Modrinth yet">
-Archive World Downloader is on CurseForge now. Its Modrinth page has not cleared review yet, so you will not find the mod on Modrinth, and the Modrinth links on this page will not work until it does. Install from CurseForge for now, either the CurseForge App or Prism Launcher's CurseForge provider.
-</Aside>
+import { Tabs, TabItem, Steps } from '@astrojs/starlight/components';
 
 Archive World Downloader runs on Minecraft: Java Edition only. It runs on the client, so it installs on your own game and nothing runs on the server.
 
@@ -121,7 +117,7 @@ Put the downloaded jars in the `mods` folder inside your Minecraft game director
 
 ## Java
 
-Whatever Java runs your Minecraft runs the mod. Each of the three launchers can get it for you: the CurseForge App installs Java on its own, the Modrinth App has **Install recommended** next to "Java 21 location" in its Java installations settings, and Prism Launcher offers to autodetect and download Java when you first set it up. If you installed by hand, the official launcher installs the Java your version needs.
+Whatever Java runs your Minecraft runs the mod. Each of the three launchers can get it for you: the Modrinth App has **Install recommended** next to "Java 21 location" in its Java installations settings, the CurseForge App installs Java on its own, and Prism Launcher offers to autodetect and download Java when you first set it up. If you installed by hand, the official launcher installs the Java your version needs.
 
 ## Launch and confirm it loaded
 
@@ -145,6 +141,6 @@ If the mod is missing from both the in-game mod list and the log, the cause is u
 - A dependency is missing, most often Fabric API on Fabric or Quilt.
 - The build does not match your Minecraft version.
 
-The fix is the same for all three. Go back to the Modrinth version selector and download the build, and its dependencies, for your exact Minecraft version and loader.
+The fix is the same for all three. Go back to the version list on the Modrinth or CurseForge page and download the build, and its dependencies, for your exact Minecraft version and loader.
 
 Once it loads, go on to [Your first download](/get-started/first-download/).
