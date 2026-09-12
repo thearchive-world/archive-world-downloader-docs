@@ -38,7 +38,7 @@ export default defineConfig({
         { icon: 'github', label: 'GitHub', href: 'https://github.com/thearchive-world/archive-world-downloader' },
       ],
       plugins: [starlightLinksValidator()],
-      components: { Footer: './src/components/Footer.astro' },
+      components: { Footer: './src/components/Footer.astro', SocialIcons: './src/components/SocialIcons.astro' },
       sidebar: [
         { label: 'Get started', items: [
           { label: 'Install', slug: 'get-started/install' },
