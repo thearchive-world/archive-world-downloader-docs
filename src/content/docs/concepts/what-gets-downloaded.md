@@ -60,6 +60,10 @@ A server that runs two worlds of the same kind, a resource world or a plot world
 
 An End you already cleared can start the dragon fight again in the copy. Minecraft keeps no record your client can see of the dragon being dead, so it works that out from the central island's exit portal the first time you return to the middle. Save that island while you download and the portal comes with it, and the End opens as already won; go straight out to the End cities without ever saving the center, and the game finds no portal, takes the dragon as unbeaten, and brings it back. Flying back through the center before you finish keeps it gone, and nothing is lost either way: the fight only reappears, and beating the dragon once in the copy settles it.
 
+### Stopping while in the Nether on 1.13.2
+
+On Minecraft 1.13.2, a download that ends while you are in the Nether comes out partial. It keeps your inventory, Ender Chest, position and game mode, and loses your XP, health and hunger. A download that ends while you are in the Overworld keeps everything.
+
 ### A network that moves you between servers
 
 Some server networks move you between backend servers behind one address, which you see as a brief **"Reconfiguring..."** screen. When that happens, the running download stops and saves itself, exactly as if you had disconnected; nothing from the new server is written into it. If a network instead switches you with only a respawn-style world change, no reconfiguration screen, the mod cannot tell the servers apart and the download continues, saving the new server's terrain into the same folder, the same mixing described in [two server worlds of the same kind](/concepts/wrong-contents/#two-server-worlds-of-the-same-kind).
