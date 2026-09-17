@@ -9,7 +9,7 @@ The World tab holds three sections: Generation, Game Rules, and World Defaults. 
 
 | Setting | Config key | Type | Default | Effect |
 | --- | --- | --- | --- | --- |
-| World Type | `worldType` | Enum (VOID, DEFAULT, FLAT) | VOID | What fills the space between downloaded chunks. Your downloaded area is always the real terrain; this governs only the surroundings. VOID is empty air; DEFAULT generates normal terrain and FLAT generates superflat layers, both freshly generated and not the server's real land. |
+| World Type | `worldType` | Enum (VOID, DEFAULT, FLAT) | VOID | What fills the space between downloaded chunks. Your downloaded area is always the real terrain; this governs only the surroundings. VOID is empty air; DEFAULT generates normal terrain and FLAT generates superflat layers, both freshly generated and not the server's real land. On Minecraft 1.21.3 and later, both VOID and FLAT use Minecraft's superflat generator, whose sea level sits far below the terrain, so shores and cold forests you downloaded freeze and snow over when you open the world. Pick DEFAULT if that matters, knowing it surrounds your download with generated terrain that looks real and was never on the server. |
 | Seed | `worldSeed` | Number (64-bit; non-numeric text hashed) | 0 | Seed for DEFAULT and FLAT terrain, across the full 64-bit range. Non-numeric text is hashed the same way the vanilla seed field does. VOID ignores it. |
 | Generate Structures | `generateFeatures` | Toggle | false | Generate structures (villages, strongholds, and the rest) in DEFAULT and FLAT terrain. |
 
