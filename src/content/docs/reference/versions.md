@@ -9,6 +9,7 @@ A setting your Minecraft version cannot support is hidden.
 
 | Minecraft | Loaders | Settings hidden |
 | --- | --- | --- |
+| 26.3 | Fabric, NeoForge | All shown |
 | 26.2 | Fabric, NeoForge | All shown |
 | 26.1.2 | Fabric, NeoForge | All shown |
 | 1.21.11 | Fabric, NeoForge | All shown |
