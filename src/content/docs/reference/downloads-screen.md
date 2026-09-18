@@ -9,7 +9,7 @@ The downloads screen, titled "Downloads", is where a download is started, resume
 
 Three routes open the screen:
 
-- The **"Download This World"** button in the pause menu. A small **"..."** button sits beside it and opens the settings screen instead.
+- The **"Download This World"** button in the pause menu. A small **"..."** button sits beside it, reads **"Settings"** on hover, and opens the settings screen instead.
 - The **"Open Downloads Screen"** keybind, which ships unbound.
 - The `/wdl downloads` command, which opens the screen with the existing-worlds list already expanded. The other two open it with the list as you last left it.
 

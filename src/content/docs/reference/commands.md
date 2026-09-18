@@ -40,7 +40,7 @@ In a replay there is no server to name a download after, so the Toggle World Dow
 
 The settings screen, titled "Archive World Downloader Settings", holds the mod's options across the Interface, World, and Download tabs. Three routes open it:
 
-- **Pause-menu settings button.** In the pause menu on a server, a small "..." button sits beside the download button and opens the settings screen. It is not shown in your own local world.
+- **Pause-menu settings button.** In the pause menu on a server, a small "..." button sits beside the download button and opens the settings screen. Hover over it and it reads "Settings". It is not shown in your own local world.
 - **ModMenu on Fabric.** With ModMenu installed, its config button for Archive World Downloader opens the settings screen.
 - **Mods screen on Forge and NeoForge.** Both show a config button for the mod in their mods list, which opens the settings screen. On 1.13.2 that button is grayed out, because that version of Forge disables it for every mod.
 
