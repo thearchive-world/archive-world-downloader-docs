@@ -39,7 +39,7 @@ Continue merges anyway. With **"Backup Before Resume or Restore"** on, the folde
 
 A finished download that lost content to a write failure shows a **"Partial"** chip on its row. You may also have seen a "Download incomplete" message telling you to check the log. Either one means some content did not reach the save.
 
-Open `logs/latest.log` to see what could not be saved. If the area is still reachable, resume to fill the gaps. To catch gaps before you disconnect next time, [check what you actually saved](/guides/check-coverage/) while the download runs.
+The [download report](/reference/wdl-folder/) in the world's `wdl/` folder names what could not be saved, by kind and count, on its Lost line. `logs/latest.log` has the detail behind each one. If the area is still reachable, resume to fill the gaps. To catch gaps before you disconnect next time, [check what you actually saved](/guides/check-coverage/) while the download runs.
 
 ## Backups
 

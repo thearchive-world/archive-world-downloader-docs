@@ -38,7 +38,7 @@ The second is that everything it saved was empty air and **"Skip Empty Chunks"**
 
 A download that finished but lost something along the way is marked partial. You get the usual *Downloaded* line, then *Note: this download is incomplete. N could not be saved; check the log.*, and a **"Download incomplete"** toast. Afterwards its row on the downloads screen carries an amber **"Partial"** chip where the size would be.
 
-Partial is not a broken save. The world is finalized and it opens in the vanilla game like any other, the shareable `.zip` is still written, and everything that did reach disk is in it. What the number counts is the things that did not: a chunk whose write failed, a Map that could not be written, the contents of a container that had nowhere to go.
+Partial is not a broken save. The world is finalized and it opens in the vanilla game like any other, the shareable `.zip` is still written, and everything that did reach disk is in it. What the number counts is the things that did not: a chunk whose write failed, a Map that could not be written, the contents of a container that had nowhere to go. The [download report](/reference/wdl-folder/) in the world's `wdl/` folder names which kinds, and how many of each, on its Lost line.
 
 Resume it. The download merges into the same folder, and walking back through the area is what actually refills the gaps, because a chunk is only saved again when you return to it.
 
