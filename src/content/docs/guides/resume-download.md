@@ -41,6 +41,10 @@ A finished download that lost content to a write failure shows a **"Partial"** c
 
 The [download report](/reference/wdl-folder/) in the world's `wdl/` folder names what could not be saved, by kind and count, on its Lost line. `logs/latest.log` has the detail behind each one. If the area is still reachable, resume to fill the gaps. To catch gaps before you disconnect next time, [check what you actually saved](/guides/check-coverage/) while the download runs.
 
+## Resume on the version that made the download
+
+Resume with the Minecraft version the download was made with, not a newer one. The merge keeps what you already saved in the older version's form, and nothing ever converts it. What the newer version changed can then come out wrong in those chunks. Opening a finished download on a newer version is fine.
+
 ## Backups
 
 `zipOnResume` writes the pre-resume safety zip before a resume merges into an existing world. It is on by default. See the [Download reference](/reference/config/download/) for the setting.
